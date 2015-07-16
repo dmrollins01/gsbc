@@ -1,0 +1,185 @@
+
+/* Page Styles
+================================ */
+* {
+box-sizing: border-box;
+}
+.main-wrapper {
+  
+  width: 90%;
+  margin: auto;
+}
+
+
+body {
+	
+	background-color: #8CC63E;
+    margin: 0;
+    
+}
+
+
+/* Layout Element Colors
+================================ */
+
+
+
+.color-primary-0 { color: #006738 }	/* Main Primary color */
+.color-primary-1 { color: #249461 }
+.color-primary-2 { color: #0E7D4A }
+.color-primary-3 { color: #004E2A }
+.color-primary-4 { color: #00301A }
+
+.color-secondary-1-0 { color: #063A60 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #28618A }
+.color-secondary-1-2 { color: #134C74 }
+.color-secondary-1-3 { color: #032C48 }
+.color-secondary-1-4 { color: #011B2D }
+
+.coor-secondary-2-0 { color: #3F8500 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #73C02F }
+.color-secondary-2-2 { color: #56A112 }
+.color-secondary-2-3 { color: #2F6500 }
+.color-secondary-2-4 { color: #1D3E00 }
+
+
+/* Header and Footer Layout
+================================ */
+
+.main-header {
+  
+  width: 100%;
+  margin-bottom: 50px;
+  }
+.logo {
+  width: 100%;
+  height: 100%;
+  background-color: #fff; 
+  padding-top: 5px;
+  padding-left: 5px;
+  text-align: center;
+  border-radius: 10px;
+   
+}
+
+.logo img {
+  width: 50% ;
+  height: 70%;
+  overflow: hidden;
+  
+  
+}
+
+.main-footer {
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  
+}
+
+
+/* Navigation Layout
+================================ */
+.main-nav {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  
+  
+  
+}
+.main-nav li {
+  display: inline-block;
+  padding-right: 20px;
+  background-color:#004E2A ;
+  height: 25px;
+
+  border-radius: 5px;
+  
+  
+  
+}
+
+.main-nav ul {
+  text-align: center;
+}
+.main-nav a {
+  text-decoration: none; 
+  display: inline-block;
+  
+  
+/* Home Primary Content (churchfront) Layout
+================================ */
+}
+.churchfront {
+  margin-top: 50px;
+  text-align:  center;
+  
+  
+}
+.churchfront img {
+  width: 75%;
+  border: 5px solid #004E2A;
+  border-radius: 10px;
+  
+}
+
+
+
+.marquee {
+  color: #fff;
+}
+/* unvisited link */
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+
+/* About Styles
+================================ */
+
+.mission_col,
+.vision_col {
+  width: 40%;
+  display: inline-block;
+  text-align: justify;
+  margin-bottom: 20px;
+  
+}
+.vision_col {
+  float: right;
+}
+.pastor_col {
+  width: 55%;
+  display: inline-block;
+  text-align: justify;
+}
+
+.revjones{
+  display: inline-block;
+  
+}
+
+
+/* HIstory Styles
+================================ */
+.hist_narr {
+  margin: 20px;
+}
+.hist_narr h1{
+  padding-bottom: 10px;
+}

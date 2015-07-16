@@ -3,24 +3,134 @@
 <head>
     <meta charset="utf-8">
     <title>Green Street Baptist Church</title>
+  <link rel="stylesheet" href="css/my_styles.css">
+    <link rel="stylesheet" href="css/timelinr_styles.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+<script src="js/jquery.timelinr-0.9.54.js"> </script>
+  
+<script>
+    
+   $(function(){
+			$().timelinr({
+				orientation: 	'vertical',
+				issuesSpeed: 	300,
+				datesSpeed: 	100,
+				arrowKeys: 		'true',
+				startAt:		3
+			})
+		});
+    
+      
+  </script>
 </head>
 
+  
 <body>
-    <header> 
-        <h1> Green Street Baptist Church</h1>
-                <h4> 
-                Exalting Christ, Edifying the Church, and Evangelizing the                       Community
-                </h4>
-     </header>
-
-  <h2>History</h2>  
-    <p>With a desire an a belief in the promises of God, 28 members exhibted faith and perseverance to secure the charter from the First Baptist Church of Louisville (now Walnut Street Baptist Church) to create a new congregation.  Originally named Second African American Baptist Church, the name was later changed to Green Street Baptist Church and memnbership grew to over 1100 by 1874.  Through God's grace and provisions, the church was able to purchase property, organize for worship, manage its administration and resolve internal conflicts.</p> 
+    <div class="main-wrapper">
+    <header class="main-header">
+      <div class="logo">
+           <a href="index.html">
+        <img src="images/gsbc_logo.jpg">
+          </a>
+      </div>
+      <nav class="main-nav">
+           <ul>
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="about.html"> About Us</a></li>
+                <li> <a href="history.html"> Our History</a></li>
+                <li> <a href="giving.html"> Giving</a></li>
+                <li> <a href="contact.html"> Contact Us</a></li>
+            </ul>
+        </nav>   
+      
+      </header>
+    
+     
+  
+<div class="hist_narr">
+  
+  <h1>Our History</h1>  
+    <p>With a desire and a belief in the promises of God, 28 members exhibited faith and perseverance to secure the charter from the First Baptist Church of Louisville (now Walnut Street Baptist Church) to create a new congregation in 1844.  Originally named Second African American Baptist Church, the name was later changed to Green Street Baptist Church and membership grew to over 1100 by 1874.  Through God's grace and provisions, the church was able to purchase property, organize for worship, manage its administration and resolve internal conflicts.</p> 
         
         <p>Green Street has been instrumental in the seed planting of other congregations: Forest Baptist, Hill Street Baptist, and First Baptist Church, Anchorage. As early as 1869, Green Street was a member of the General Association of Kentucky Baptists and was instrumental in the creation of Simmons Bible College.</p>
     
 
-    <p> Green Street has only had eight pastors during her 171-year history:  Rev. George W. Wells, Elder Richard Sneathen, Rev. Daniel Gaddie, Rev. Henry W. Johns, Rev. Jesse V. Bottoms, Rev. Tyrone P. Jones, III, and our present pastor, Rev. Carl. J. Jones.  With God as their leader and these ministers as His under-shepherds, Green Street has worked to develop ministries which have helped spread the gospel and develop strong Christian brothers and sisters.</p>
-    <p></p>
+    <p> Green Street has only had eight pastors during her 171-year history:  Rev. George W. Wells, Elder Richard Sneathen, Rev. Daniel Gaddie, Rev. Henry W. Jones, Rev. Jesse V. Bottoms, Rev. Tyrone P. Jones, III, and our present pastor, Rev. Carl. J. Jones.  With God as their leader and these ministers as His under-shepherds, Green Street has worked to develop ministries which have helped spread the gospel and develop strong Christian brothers and sisters.</p>
+  
+ </div> 
     
+  <div id="timeline">
+   <ul id="dates">
+			
+			<li><a href="#1844">1844</a></li>
+			<li><a href="#1850">1850</a></li>
+			<li><a href="#1852">1852</a></li>
+			<li><a href="#1872">1872</a></li>
+			<li><a href="#1912">1912</a></li>
+			<li><a href="#1950">1950</a></li>
+			<li><a href="#1988">1988</a></li>
+			<li><a href="#1991">1991</a></li>
+		</ul>
+		<ul id="issues">
+			<li id="1" class="selected">
+				<img src="http://images.clipartpanda.com/blue-christian-cross-ycoeaL9cE.jpeg" width="256" height="256" />
+              
+				<h1>Rev. George Wells</h1>
+                <h2>1844-1850</h2>
+				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			</li>
+			<li id="1850">
+				<img src="images/satchell.png" width="256" height="256" />
+				<h1>Rev. Charles Satchell</h1>
+                <h2>1850-1851</h2>
+				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			</li>
+			<li id="1852">
+				<img src="images/sneathen.png" width="256" height="256" />
+				<h1>Rev. Richard Sneathen</h1>
+              <h2>1852-1872</h2>
+				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			</li>
+			<li id="1872">
+				<img src="images/gaddie.png" width="256" height="256" />
+				<h1>Rev. Daniel Gaddie</h1>
+                <h2>1872-1911</h2>
+				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			</li>
+			<li id="1912">
+				<img src="images/hwjones.png" width="256" height="256" />
+				<h1>Rev. Henry Wise Jones, D.D.</h1>
+                <h2>1912-1950</h2>
+				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			</li>
+			<li id="1950">
+				<img src="images/bottoms.png" width="256" height="256" />
+				<h1>Rev. Jesse V. Bottoms, Sr.</h1>
+                <h2>1950-1986</h2>
+				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			</li>
+			<li id="1988">
+				<img src="images/tpjones.png" width="256" height="256" />
+				<h1>Rev. Tyrone P. Jones, Ph.D.</h1>
+                <h2>1988-1990</h2>
+				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			</li>
+			<li id="1991">
+				<img src="images/cjjones.png" width="256" height="256" />
+				<h1>Rev. Carl J. Jones</h1>
+                <h2>1991-Present</h2>
+				<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+			</li>
+		</ul>
+		<div id="grad_top"></div>
+		<div id="grad_bottom"></div>
+		<a href="#" id="next">+</a>
+		<a href="#" id="prev">-</a>
+</div>
+    
+     <footer class="main-footer">&copy; Green Street Baptist Church | 2015</footer>  
+    
+  </div>
     
 </body>
+</html>
